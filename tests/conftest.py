@@ -14,7 +14,9 @@ pytest_plugins = [
     # Should be the first custom one:
     'plugins.django_settings',
     'plugins.identity.user',
-    'plugins.pictures.pictures'
+    'plugins.pictures.pictures',
+    'plugins.base',
+    'plugins.mock_url.mock_placeholder'
     # TODO: add your own plugins here!
 ]
 
